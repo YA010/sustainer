@@ -40,7 +40,7 @@ function OtherComp({ formData }) {
       setReady(false)
       console.log("false")
     }
-  }, []);
+  }, [formData]);
 
   // This is the return statement of the component
   return (
