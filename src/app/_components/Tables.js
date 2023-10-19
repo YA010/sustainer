@@ -115,7 +115,7 @@ export default function Tables() {
         </div>
       </div>
     );
-  });
+  },[]);
 
   // Rendering the table
   return (
