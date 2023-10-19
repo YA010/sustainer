@@ -26,9 +26,8 @@ export default function Tabs({ defaultCharacters }) {
         characters={defaultCharacters}
         isDisplay={exploreTabDisplay}/>
       {user != null && (
-        <h1>
-          hey
-        </h1>
+        <> </>
+       // if i get time ill try and get back to this and finish 
       )} </>}
      
     </>

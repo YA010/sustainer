@@ -9,6 +9,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  // i made env variables just to showcase added security but these google firebase keys are harmless and can be shown in the client side
 };
 
 // Initialize Firebase
