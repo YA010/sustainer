@@ -21,7 +21,7 @@ function OtherComp({ formData }) {
       if (response.ok) {
         const result = await response.json();
         setData(result.result, target)
-        console.log('Calculation result:', result.result);
+  
       } else {
         console.error('API request failed:', response.statusText);
       }
@@ -34,15 +34,13 @@ function OtherComp({ formData }) {
   useEffect(() => {
     if (Array.isArray(formData) && formData[0]) {
       setReady(true);
-      console.log(formData)
-      console.log("true")
       postData()
-      console.log(data)
+     
     } else {
       setReady(false)
       console.log("false")
     }
-  }, [formData]);
+  }, [data,postData,formData]);
 
   // This is the return statement of the component
   return (

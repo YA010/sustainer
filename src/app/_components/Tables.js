@@ -115,7 +115,7 @@ export default function Tables() {
         </div>
       </div>
     );
-  }, [statusFilter, formData, country]);
+  });
 
   // Rendering the table
   return (
